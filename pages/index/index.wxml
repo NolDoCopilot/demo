@@ -1,0 +1,18 @@
+<!--pages/home/map/index.wxml-->
+<view class="page">
+  <map
+    id="map"
+    scale="{{scaleNum}}"
+    longitude="{{longitude}}"
+    latitude="{{latitude}}"
+    markers="{{markers}}"
+    polygons="{{polygons}}"
+    enable-satellite="{{satellite}}"
+    polyline="{{polyline}}"
+    bindmarkertap="markertap"
+    bindtap="istap"
+    >
+    </map>
+</view>
+
+
